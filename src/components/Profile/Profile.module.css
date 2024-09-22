@@ -1,0 +1,94 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  height: 600px;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  overflow: hidden;
+  border-radius: 2%;
+  border: 3px solid #000;
+  background-color: #fffafa;
+}
+
+.profile {
+  padding: 10px;
+}
+
+.avatar {
+  display: block;
+  height: 200px;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 100px;
+  border: 3px solid #000;
+  box-shadow: 0 0 7px #666;
+  background-color: #808080;
+}
+
+.name {
+  font-family: "Roboto", sans-serif;
+  font-weight: 750;
+  font-size: 35px;
+  margin: 15px;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #000;
+}
+
+.tag {
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  margin: 0%;
+  text-align: center;
+  color: #a9a9a9;
+}
+
+.location {
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  margin: 0%;
+  text-align: center;
+  color: #a9a9a9;
+}
+
+.listStats {
+  display: flex;
+  margin-bottom: 0;
+  margin-left: 20px;
+  margin-right: 20px;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0;
+}
+
+.listStat li {
+  flex: 1;
+  border: 1px solid #ccc;
+  padding: 15px;
+  text-align: center;
+  background-color: #f9f9f9;
+  margin: 0 5px;
+}
+
+.itemStats {
+  display: block;
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.statsNumber {
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 10px;
+}

@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 100px;
+  margin-left: 150px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  width: 600px;
+  height: 200px;
+}
+
+.friendList {
+  display: flex;
+
+  gap: 10px;
+}
+
+.friendListItem {
+  display: flex;
+  padding: 10px 10px;
+  border-radius: 5%;
+  border: 3px solid #000;
+  background-color: #fffafa;
+}

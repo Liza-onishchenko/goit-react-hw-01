@@ -1,0 +1,42 @@
+.containerTrans {
+  width: 600px;
+  height: 400px;
+  border-collapse: collapse;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-left: 150px;
+  margin-right: 150px;
+  text-align: center;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+.thead {
+  background-color: #292a2b;
+}
+
+.containerTrans th {
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+  font-weight: 700;
+  font-size: 16px;
+  background-color: #132617;
+}
+
+.listTransaction {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.containerTrans tr:nth-child(2n) {
+  background-color: #ffffff;
+}
+.containerTrans tr:nth-child(2n + 1) {
+  color: #132617;
+  background-color: #d3d3d3;
+}
